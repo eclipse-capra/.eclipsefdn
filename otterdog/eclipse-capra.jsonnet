@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-capra') {
+orgs.newOrg('modeling.capra', 'eclipse-capra') {
   settings+: {
     description: "",
     name: "Eclipse Capra",
